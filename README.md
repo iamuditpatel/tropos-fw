@@ -1,2 +1,2 @@
 # tropos-fw
-framework for core php
+Framework for Core Php

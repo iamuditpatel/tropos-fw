@@ -1,14 +1,13 @@
-  <?php
-  $server = "localhost";
-  $username = "root";
-  $password = "";
-  $database = "hackos";
+ <?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "fw-demo";
 
-  $connect = mysqli_connect($server, $username, $password, $database);
-  if (!$connect){
-  //  echo "success";
-  //}
-  //else {
-    die("Error". mysqli_connect_error());
-  }
-  ?>
+$connect = new mysqli($servername, $username, $password, $database);
+
+if ($connect->connect_error) {
+    die("Connection failed: " . $connect->connect_error);
+}
+echo "Connection Successful";
+?>

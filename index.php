@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php require 'partials/body/nav/_nav-in_body.php'; ?>
-    <h1>Welcome to the Homepage</h1>
+    <h1>Welcome to the Hackosphere</h1>
     <p><a href="signup.php">Signup</a> or <a href="signin.php">Signin</a></p>
 </body>
 </html>

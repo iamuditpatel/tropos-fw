@@ -78,4 +78,4 @@ project/
     │       └── _nav-in_body.php 
 └── database/  
     └── connect/  
-        └── _con-in_database.php
+        └── _connect-in_database.php
